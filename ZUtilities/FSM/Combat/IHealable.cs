@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZUtilities.FSM
+namespace ZUtilities.FSM.Combat
 {
-    class State
+    interface IHealable
     {
-        string m_name;
-        string m_desc;
-
-
+        void RestoreHealth(int amount);
     }
 }

@@ -44,13 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FSM\Card.cs" />
+    <Compile Include="FSM\CombatMachine.cs" />
     <Compile Include="FSM\Combat\IDamageable.cs" />
     <Compile Include="FSM\Combat\IDamager.cs" />
+    <Compile Include="FSM\Combat\IHealable.cs" />
+    <Compile Include="FSM\Combat\IHealer.cs" />
+    <Compile Include="FSM\Item.cs" />
+    <Compile Include="FSM\Party.cs" />
     <Compile Include="FSM\Player.cs" />
-    <Compile Include="FSM\State.cs" />
+    <Compile Include="FSM\IState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FSM\Combat\Stat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
